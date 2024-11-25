@@ -1,4 +1,4 @@
-from fastapi import Security, HTTPException, status
+from fastapi import Security, HTTPException, status, Security
 from fastapi.security import APIKeyHeader
 from app.db import check_api_key, get_user_from_api_key
 
